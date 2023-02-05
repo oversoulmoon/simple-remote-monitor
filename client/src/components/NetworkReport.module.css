@@ -1,0 +1,13 @@
+.container{
+    display: grid;
+    grid-template-columns:minmax(0, 1fr);
+    margin-bottom: 2vw;
+    row-gap: 1vw;
+    width: 100%;
+}
+.up{
+    color: rgb(0, 71, 0);
+}
+.down{
+    color: rgb(175, 0, 0);
+}

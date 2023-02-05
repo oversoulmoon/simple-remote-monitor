@@ -1,0 +1,27 @@
+.smallInfo {
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 2vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: 2vw;
+  row-gap: 2vw;
+  padding: 1vw;
+}
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+.topRow{
+  display:grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+.cpuStats{
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  row-gap: 1vw;
+  column-gap: 1vw; 
+}
